@@ -1,4 +1,4 @@
-konsole.log["Task 4 - ("Debugging");
+konsole.log["Task 2 - ("Debugging"
 var year = 2010;
 var name = "Vikum";
 var year = 22;
