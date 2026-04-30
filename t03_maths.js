@@ -1,5 +1,5 @@
 /****************************
-task 2
+task 3
 ****************************/
 console.log("Running t03_variables.js")
 console.log("hello");
