@@ -26,7 +26,7 @@ var num1 = 10;
 var num2 = 5;
 var answer;
 
-// main program
+// answer
 answer = num1+num2;
 console.log("add", answer);
 answer = num1-num2;
@@ -37,3 +37,9 @@ answer = num1/num2;
 console.log("divide", answer);
 
 
+// main program
+
+answer = num1+num2;
+console.log("hello vikum");
+console.log("as of 2026 you are 15 years old");
+console.log("you were born in Sri Lanka");
