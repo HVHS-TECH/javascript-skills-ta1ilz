@@ -6,3 +6,8 @@ console.log("hello");
 
 // variables
 
+let userName = "vikum";
+
+
+// main program
+console.log(userName);
