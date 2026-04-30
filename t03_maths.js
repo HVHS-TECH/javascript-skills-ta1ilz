@@ -6,13 +6,11 @@ console.log("hello");
 
 // maths
 
-let userName = "vikum";
-let Age = "15";
-let pocketMoney = "$10";
-let currentYear = "2026";
+var num = 10;
+var num = 5;
 
 // main program
-console.log(userName);
-console.log(Age);
-console.log(pocketMoney);
-console.log(currentYear);
+console.log("add", num1+num2);
+console.log("subtract", num1-num2);
+console.log("multiply", num1*num2);
+console.log("divide", num1/num2);
