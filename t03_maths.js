@@ -1,10 +1,10 @@
 /****************************
 task 2
 ****************************/
-console.log("Running t02_variables.js")
+console.log("Running t03_variables.js")
 console.log("hello");
 
-// variables
+// maths
 
 let userName = "vikum";
 let Age = "15";
