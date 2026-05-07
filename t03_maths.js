@@ -1,49 +1,23 @@
-/****************************
-task 3
-****************************/
-console.log("Running t03_variables.js")
-console.log("hello");
+console.log("Task 4 - Debugging");
 
-// numbers
+// Set up the size of the page.
+var length = 8;
+var width = 10;
 
-console.log(10+5);
+// calculate the area
+var area = length * width;
+console.log("area", area);
+// calculate the perimeter
+var perimeter = 2 * length + 2 * width;
+console.log("perimeter", perimeter);
 
-// variables and numbers
+// Display the results
+console.log("An area of a piece of paper with a length of " + length + ", and a width of " + width + " is " + area);
+console.log("The same piece of paper has a perimeter of " + perimeter);
 
-var myNumber = 10;
-console.log(myNumber + 5)
-
-// only variables
-
-var myNumber = 10;
-var myOtherNumber = 5;
-console.log(myNumber+myOtherNumber)
-
-
-// maths
-
-var num1 = 10;
-var num2 = 5;
-var answer;
-
-// answer
-answer = num1+num2;
-console.log("add", answer);
-answer = num1-num2;
-console.log("subtract", answer);
-answer = num1*num2;
-console.log("multiply", answer);
-answer = num1/num2;
-console.log("divide", answer);
-
-
-// main program
-
-answer = num1+num2;
-console.log("hello vikum");
-console.log("as of 2026 you are 15 years old");
-console.log("you were born in Sri Lanka");
-console.log("in 10 years you will be 25 years old");
-console.log("you have 5 fingers on each hand so you have 10 fingersin total");
-console.log("you spend half of you money, now you have 5 dollarsleft");
-console.log("then you get 3 dollars from your friend, now you have 8 dollars");
+// Check, does this result look sensible
+if (area > perimeter){
+console.log("Yay, your area is larger, this is right for this example");
+}else{
+console.log("Hmm, your perimeter is larger. It shouldn't be for this example");
+}
