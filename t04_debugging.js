@@ -1,38 +1,23 @@
-(function () {
-    'use strict';
-    try {
-        console.group('Task 4 - Debugging');
+console.log("Task 4 - Debugging");
 
-        const paperLength = 8;
-        const paperWidth = 10;
+// Set up the size of the page.
+var length = 8;
+var width = 10;
 
-        const isPositiveNumber = (n) => typeof n === 'number' && isFinite(n) && n >= 0;
-        if (!isPositiveNumber(paperLength) || !isPositiveNumber(paperWidth)) {
-            console.error('Invalid dimensions provided:', { paperLength, paperWidth });
-            console.groupEnd();
-            return;
-        }
+// calculate the area
+var area = length * width;
+console.log("area", area);
+// calculate the perimeter
+var perimeter = 2 * length + 2 * width;
+console.log("perimeter", perimeter);
 
-        const area = paperLength * paperWidth;
-        const perimeter = 2 * (paperLength + paperWidth);
+// Display the results
+console.log("An area of a piece of paper with a length of " + length + ", and a width of " + width + " is " + area);
+console.log("The same piece of paper has a perimeter of " + perimeter);
 
-        console.log('Dimensions:', { length: paperLength, width: paperWidth });
-        console.log('Area:', area);
-        console.log('Perimeter:', perimeter);
-
-        console.log(
-            `An area of a piece of paper with a length of ${paperLength}, and a width of ${paperWidth} is ${area}`
-        );
-        console.log(`The same piece of paper has a perimeter of ${perimeter}`);
-
-        if (area > perimeter) {
-            console.log('Yay, your area is larger — this is right for this example');
-        } else {
-            console.log("Hmm, your perimeter is larger. It shouldn't be for this example");
-        }
-
-        console.groupEnd();
-    } catch (err) {
-        console.error('Unexpected error in debugging script:', err);
-    }
-})();
+// Check, does this result look sensible
+if (area > perimeter){
+console.log("Yay, your area is larger, this is right for this example");
+}else{
+console.log("Hmm, your perimeter is larger. It shouldn't be for this example");
+}
