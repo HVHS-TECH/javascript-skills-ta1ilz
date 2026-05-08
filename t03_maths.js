@@ -10,20 +10,22 @@ var num1 =10;
 var num2 = 5;
 
 // main program
-var sum = num1 + num2;
-console.log("Sum:", sum);
-var difference = num1 -num2;
-console.log("difference:", difference);
-var product = num1 * num2;
-console.log("product:", product);
-var quotient = num1 / num2;
-console.log("quotient:", quotient);
+var add = num1 + num2;
+console.log("Add:", add);
+var subtract = num1 -num2;
+console.log("Subtract:", subtract);
+var multiply = num1 * num2;
+console.log("Multiply:", multiply);
+var divide = num1 / num2;
+console.log("Divide:", divide);
 
 // more variables
-
+var userName = "Alice";
 
 // main program
-console.log(userName);
-console.log(Age);
-console.log(pocketMoney);
-console.log(currentYear);
+console.log("Hi Vikum");
+console.log("As of 2025 you are 15 years old");
+console.log("You were brorn in Sri Lanka");
+console.log("You have $100");
+console.log("You spend half your money, now you have $50");
+console.log("Then you get $3, you have $53");
