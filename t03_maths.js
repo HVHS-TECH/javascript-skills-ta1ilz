@@ -6,10 +6,21 @@ console.log("hello");
 
 // variables
 
-let userName = "vikum";
-let Age = "15";
-let pocketMoney = "$10";
-let currentYear = "2026";
+var num1 =10;
+var num2 = 5;
+
+// main program
+var sum = num1 + num2;
+console.log("Sum:", sum);
+var difference = num1 -num2;
+console.log("difference:", difference);
+var product = num1 * num2;
+console.log("product:", product);
+var quotient = num1 / num2;
+console.log("quotient:", quotient);
+
+// more variables
+
 
 // main program
 console.log(userName);
