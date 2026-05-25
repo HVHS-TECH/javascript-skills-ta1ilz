@@ -1,7 +1,7 @@
 /****************************
 task 5
 ****************************/
-console.log("Running t05_j.js")
+console.log("Running t05_javascript.js")
 console.log("hello");
 
 // variables
