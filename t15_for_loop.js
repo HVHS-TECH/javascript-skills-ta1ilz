@@ -296,4 +296,3 @@
                     vx: Math.cos(player.angle) * wp.speed,
                     vy: Math.sin(player.angle) * wp.speed,
                     damage: wp.damage,
-                    color: wp.color,
